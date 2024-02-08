@@ -13,7 +13,7 @@ form{
     width: 400px;
     height: 320px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 250px;
     border-radius: 10px;
     border: 1px solid #4D5562;
     display: flex;
@@ -188,10 +188,15 @@ button:hover{
 } 
 
 @media screen and (max-width: 640px) {
+    html{
+        overflow: hidden;
+    }
     body{
+        margin: 0;
         max-width: 100%;
     }
     form {
+        margin-top: 150px;
         width: 60%;
         padding: 20px;
 
