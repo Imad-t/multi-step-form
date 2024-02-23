@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Sora&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Sora&display=swap"
+      rel="stylesheet"
+    />
     <title>Register Form</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
-    <script src="./main.js" type="module"></script>    
-    
-    <form onsubmit="event.preventDefault(); next()">
-        <h3>Register</h3>
-        <div class="content">
-           <label for="name">Name</label>
-           <input type="text" id="name" placeholder="enter your name">
-           <p class="no-err-msg" id="name-error">Please enter your full name</p>
-           <label for="email">Email</label>
-           <input type="email" id="email" placeholder="example@gmail.com">
-           <p class="no-err-msg" id="email-error">Please enter a valid email address </p>
-        </div>
-        <button type="submit">Continue</button>
-    </form>
-    
-
-    <div class="steps">
-        <div class="selecteddot" id="d1">
-            <div class="selectedindot" id="in1"></div>
-        </div>
-        <div class="nextdot" id="d2">
-            <div class="nextindot" id="in2"></div>
-        </div>
-        <div class="nextdot" id="d3">
-            <div class="nextindot" id="in3"></div>
-        </div>
+  <body>
+    <script src="./main.js" type="module"></script>
+    <div>
+        <form onsubmit="event.preventDefault(); next()">
+            <h3>Register</h3>
+            <div class="content">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="enter your name" />
+              <p class="no-err-msg" id="name-error">Please enter your full name</p>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="example@gmail.com" />
+              <p class="no-err-msg" id="email-error">
+                Please enter a valid email address
+              </p>
+            </div>
+            <button type="submit">Continue</button>
+          </form>
+      
+          <div class="steps">
+            <div class="selecteddot" id="d1">
+              <div class="selectedindot" id="in1"></div>
+            </div>
+            <div class="nextdot" id="d2">
+              <div class="nextindot" id="in2"></div>
+            </div>
+            <div class="nextdot" id="d3">
+              <div class="nextindot" id="in3"></div>
+            </div>
+          </div>
     </div>
 
-    <img src="./assets/blur-radial.svg" id="blur1">
-    <img src="./assets/blur-radial.svg" id="blur2">
-</body>
-
+    <img src="./assets/blur-radial.svg" id="blur1" />
+    <img src="./assets/blur-radial.svg" id="blur2" />
+  </body>
 </html>

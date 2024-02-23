@@ -6,14 +6,15 @@ body {
     overflow: hidden;
     position: relative;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form{
     background-color: #212936;
     width: 400px;
     height: 320px;
-    margin: auto;
-    margin-top: 250px;
     border-radius: 10px;
     border: 1px solid #4D5562;
     display: flex;
